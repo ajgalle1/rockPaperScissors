@@ -1,0 +1,43 @@
+body {
+ 
+}
+
+#container{
+    border:5px solid black;
+    width:80%;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+#titleBar{
+    background-color:red;
+    width:100%;
+    display:flex;
+    
+    align-items:center;
+    justify-content:center;
+
+}
+
+#playerBar {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;            
+}
+
+
+.choiceImages{
+    border: 5px solid black;
+    margin:auto;
+    padding: 5px;
+}
+
+#message{
+    height:100px;
+}
+

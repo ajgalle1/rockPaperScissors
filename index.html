@@ -3,15 +3,38 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Let us play</title>
-<link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Rock Paper Scissors</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 
+<link rel="icon" href="images/rpsfavIcon.png" />
 </head>
 <body>
-    <h1>
-        Here we go!
-    </h1>
-    <div id="container"></div>
+
+    
+    <div id="container">
+
+        <div id="titleBar">  <h1> Play Rock Paper Scissors!</h1> </div>
+
+        
+            <div id="playerBar">
+
+                <image id="rockChosen" class="choiceImages" src="images/rock90x90.png" alt="rock"> </image>
+
+                <image id="paperChosen" class="choiceImages" src="images/paper90x90.png" alt="paper"> </image>
+
+                <image id="scissorsChosen" class="choiceImages" src="images/scissors90x90.png" alt="scissors"> </image>
+
+            </div>
+
+            <div id="message"> <p class="messageText"> Choose one option from above. </p> </div>
+
+            <div id="computerSide">
+
+                <image id="computerChoice" class="choiceImages" src="images/question90x90.png" alt="Computer's Choice"> </image>
+
+            </div>
+        </div>
+    
 
     <script src="js/script.js"></script>
 </body>
